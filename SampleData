@@ -1,0 +1,32 @@
+Response
+{
+    "id": 1,
+    "name": "Atik Agarwal",
+    "email": "atik@gmail.com",
+    "address": "Raipur, CG",
+    "accountType": "Current Account",
+    "accountNo": "DB134564545",
+    "accountBalance": 0.0
+}
+
+Request-1
+{
+	"name":"Atik Agarwal",
+	"email":"atik@gmail.com",
+	"address":"Raipur, CG",
+	"accountType":"Current Account",
+	"accountNo":"DB134564545",
+  "accountBalance": 100
+}
+
+Request-2
+{
+	"name":"Atik Agarwal",
+	"email":"atik@gmail.com",
+	"address":"Raipur, CG",
+	"accountType":"Current Account",
+	"accountNo":"DB134564545"
+}
+
+if accountBalance is not initialized it will be 0.00 By default.
+
