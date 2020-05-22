@@ -35,6 +35,7 @@ public class Customer {
 	@Pattern(regexp="^[A-Za-z_ ]+",message="Please enter Account Type in correct format.")
 	private String accountType;
 	
+	@Convert(converter=Encryptor.class)
 	@NotNull(message="Account Number can not be empty.")
 	@Column(name="Account_No")
 	@Pattern(regexp="^[A-Z0-9]+",message="Please enter Account Type in correct format.")
